@@ -1,0 +1,35 @@
+﻿<Window x:Class="HW_WPF_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_WPF_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF1F1B1B">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Почта" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 0, 70, 0" Foreground="White"/>
+        <Label Content="Картинки" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0, 0, 10, 0" Foreground="White"/>
+        <Label Content="Google" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 0, 0, 20" FontSize="50" Foreground="White"/>
+        <TextBox Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 70, 70, 0" Width="250" Background="#FF292929" BorderBrush="Black"/>
+        <Image Source="\GoogleRes\GoogleKey.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="18" Height="18" Margin="495,195,0,0" Stretch="Fill"/>
+        <Image Source="\GoogleRes\GoogleMic.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="18" Height="18" Margin="518,195,0,0" Stretch="Fill"/>
+        <Image Source="\GoogleRes\GooglePhot.png" Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="18" Height="18" Margin="541,195,0,0" Stretch="Fill"/>
+        <StackPanel Grid.Row="1" Background="#FF292929">
+            <Label Content="Украина" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20, 10, 0, 0" Foreground="White"/>
+        </StackPanel>
+        <Grid Grid.Row="2" Background="#FF292929">
+            <Label Content="Всё о гугле" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20, 10, 0, 0" Foreground="White"/>
+            <Label Content="Реклама" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100, 10, 0, 0" Foreground="White"/>
+            <Label Content="Для бизнеса" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="170, 10, 0, 0" Foreground="White"/>
+            <Label Content="Как работает гугл" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="255, 10, 0, 0" Foreground="White"/>
+            <Label Content="Конфедициальность" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="500, 10, 0, 0" Foreground="White"/>
+            <Label Content="Условия" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="630, 10, 0, 0" Foreground="White"/>
+            <Label Content="Нвстройки" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="700, 10, 0, 0" Foreground="White"/>
+        </Grid>
+    </Grid>
+</Window>
